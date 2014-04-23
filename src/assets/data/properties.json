@@ -1,0 +1,18 @@
+{
+  "service_configuration": {
+    "services": [
+      {
+		"id": "0",
+        "name": "Get_TestCenters",
+        "url": "http://yourServiceURL.com"
+      },
+      {
+		"id": "1",
+        "name": "Get_States",
+        "url": ":http://yourServiceURL.com"
+      }
+    ]
+  }
+}
+
+

@@ -1,0 +1,20 @@
+<div class="row">
+<div class="span12">
+<h4>Create User Form</h4>
+<form  ng-model="registerForm"  name="registration">
+<label for="id">Identification Number</label> 
+<input name="id" type="number" ng-model="id" id="id" ng-required>
+<label for="fName">First Name</label> 
+<input name="fName" type="text" ng-model="fName" id="fName">
+<label for="lName">Last Name</label> 
+<input name="lName" type="text" id="lName" ng-model="lName">
+<label for="perGender">Gender</label> 
+<input name="perGender" type="text" id="perGender" ng-model="perGender">
+<div class="row">
+<div class="span12">
+<input id="submit"  value="Create User" type="submit" class="" ng-click="createUser(registerForm)" ng-disabled="registration.$invalid">
+</div>
+</div>
+</form>
+</div>
+</div>
